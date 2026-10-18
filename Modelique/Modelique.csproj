@@ -12,7 +12,7 @@
     <Description>Lightweight MVVM framework for .NET applications.</Description>
 
     <!-- NuGet icon -->
-    <PackageIcon>ModeliqueIcon.png</PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
 
     <!-- NuGet metadata -->
     <PackageReadmeFile>README.md</PackageReadmeFile>
