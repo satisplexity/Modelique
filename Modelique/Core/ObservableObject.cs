@@ -7,7 +7,8 @@ namespace Modelique.Core;
 /// Provides a base class for objects that notify clients when property values change.
 /// </summary>
 /// <remarks>
-/// Implements <see cref="INotifyPropertyChanged"/> and provides helper methods 
+/// Implements <see cref="INotifyPropertyChanged"/> and provides helper methods
+/// <br/>
 /// for raising property change notifications and updating property values.
 /// </remarks>
 public abstract class ObservableObject : INotifyPropertyChanged
@@ -29,6 +30,7 @@ public abstract class ObservableObject : INotifyPropertyChanged
 
     /// <summary>
     /// Updates a field if its value differs from the specified value
+    /// <br/>
     /// and raises the <see cref="PropertyChanged"/> event.
     /// </summary>
     /// <typeparam name="T">The type of the property value.</typeparam>
@@ -36,6 +38,7 @@ public abstract class ObservableObject : INotifyPropertyChanged
     /// <param name="value">The new property value.</param>
     /// <param name="propertyName">
     /// The name of the property associated with the backing field.
+    /// <br/>
     /// Automatically supplied by the compiler when omitted.
     /// </param>
     /// <returns>
