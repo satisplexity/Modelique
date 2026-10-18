@@ -22,6 +22,9 @@
 	<PackageProjectUrl>https://github.com/satisplexity/Modelique</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/satisplexity/Modelique</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
+	<PackageReleaseNotes>
+		  Initial release of Modelique MVVM framework.
+	</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
