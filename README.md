@@ -204,3 +204,10 @@ Bug reports, feature requests, and contributions are welcome through [GitHub Iss
 ## Author
 
 Created and maintained by [satisplexity](https://github.com/satisplexity).
+
+## License
+
+Modelique is licensed under the MIT License.
+See the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2026 Dmytro Novikov.
