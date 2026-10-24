@@ -17,6 +17,14 @@ namespace Modelique.Navigation;
 public interface INavigationService
 {
     /// <summary>
+    /// Gets the currently active view model.
+    /// </summary>
+    /// <value>
+    /// The active view model, or <see langword="null"/> if none is selected.
+    /// </value>
+    ViewModelBase? CurrentViewModel { get; }
+
+    /// <summary>
     /// Gets a value indicating whether navigation to the previous view model is possible.
     /// </summary>
     bool CanGoBack { get; }
