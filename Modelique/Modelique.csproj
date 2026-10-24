@@ -7,9 +7,10 @@
 
     <!-- Package metadata -->
     <PackageId>Modelique</PackageId>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Authors>satisplexity</Authors>
     <Description>Lightweight MVVM framework for .NET applications.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <!-- NuGet icon -->
     <PackageIcon>icon.png</PackageIcon>
