@@ -32,13 +32,13 @@ Modelique provides the building blocks for the Model–View–ViewModel (MVVM) p
 Once the package is published to NuGet:
 
 ```bash
-dotnet add package Modelique --version 0.1.0
+dotnet add package Modelique --version 0.1.1
 ```
 
 Or add the package to your project file:
 
 ```xml
-<PackageReference Include="Modelique" Version="0.1.0" />
+<PackageReference Include="Modelique" Version="0.1.1" />
 ```
 
 To use Modelique directly from source, add a project reference instead:
